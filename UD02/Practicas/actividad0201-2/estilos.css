@@ -1,0 +1,32 @@
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 25px;
+    
+}
+
+h2.primerh2 {
+    color: rosybrown;
+}
+
+h2.segundoh2::first-letter{
+    color: red;
+}
+
+p {
+    font-size: 18px;
+}
+
+p.pares {
+    visibility: hidden;
+}
+
+li.pares:hover p.pares {
+    visibility: visible;
+  }
+
+ul {
+    list-style-type: none;
+}
