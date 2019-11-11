@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+#imagenLogotipo {
+    margin-left: 40px;
+    width: 13%;
+    height: 50px;
+    float: left;
+}
+
+#redes {
+    float: right;
+    margin-right: 20px;
+    padding: 19px;
+    color:white;
+}
+
+#redes i{
+    margin-right: 10px;
+    color: white;
+}
+
+#seccion2{
+    background-image: linear-gradient(to bottom right, rgba(20, 31, 235, 0.79), rgba(51, 191, 28, 0.79)), 
+    url(../Imagenes/fondo_superior.jpg);
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+
+div.descripcion {  
+    width: 70%;
+    height: 350px;
+    margin-top: 30px;
+}
+
+h1
+{
+    color:white;
+    font-size: 36px;
+    font-family: tahoma, verdana, sans-serif;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: left;
+    line-height: 1.65;
+    color:white;
+    height: 30%;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+i.fab fa-check {
+    background-color: #fff;
+    color: #008000;
+}
+
+div.formulario {
+    height: 480px;
+    width: 29%;
+    background-color: white;
+    color: black;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+h2 {
+    text-align: left;
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-bottom: 37px;
+}
+
+
+input{
+    margin-right: 150px;
+    display: inline-block;
+    padding: 10px;
+    width: 97%;
+    margin-bottom: 10px;
+}
+
+
+input[type=button] {
+    background-color:#07dd07;
+    color: white;
+    margin: 2px;
+    margin-top: 30px;
+    width: 95%;
+}
+
+form {
+    margin-left: 10px; 
+}
+
+label {
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+small {
+    
+    margin-left: 10px; 
+}
+
+#seccionCirculos {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#circulo i {
+    color: rgb(31, 187, 235);
+    padding: 51px 51px;
+    width: 70px;
+}
+
+#circulo {
+    width: 140px;
+    height: 140px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid rgb(31, 187, 235);
+    margin-top: 60px;
+}
+
+
+h3 {
+    font-size: 15px;
+    margin-top: 30px;
+    width: 114%;
+}
+
+#seccionVideo {
+    display: flex;
+   
+    height: 320px;
+    background-color: rgba(255, 250, 250, 0.973);
+}
+
+#descripcion2 {
+    flex-basis: 59%;
+    height: 350px;
+}
+
+#descripcion2 h2{
+    margin-left: 30px;
+}
+
+#parrafo2 {
+    color: black;
+}
+
+video {
+    width: 36%;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+#descripcion2 input[type=button] {
+    background-color:#07dd07;
+    color: white;
+    margin-left: 30px;
+    width: 55%;
+}
+
+div.cajaPersonas 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 450px;
+}
+
+div.cajaPersonas h2
+{
+   color: black;
+   text-align: center;
+   margin-top: 23px;
+   width: 90%;
+}
+
+div.persona {
+    width: 240px;
+    height: 280px;
+    box-shadow: 2px 5px 15px #ccc9c9;
+}
+
+div.persona h3 {
+    color: black;
+    margin-left: 94px;
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+div.persona p {
+    color: black;
+    margin-left: 35px;
+    margin-top: 12px;
+    font-size: 12px;
+    width: 200px;
+    height: 28px;
+}
+
+div.persona i{
+    color: blue;
+    margin-right: 10px;
+}
+
+div.persona img{
+    width: 240px;
+    height: 160px;
+}
+
+div.redes2{
+   width: 125px;
+   margin-left: 55px;
+}
+
+div.informacion
+{
+    display: flex;
+    flex-flow: column wrap;
+    background-image: linear-gradient(to left top, rgba(14, 119, 170, 0.8),rgba(14, 119, 170, 0.8)), url(../Imagenes/fondo_inferior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    border: 1px solid white;
+    height: 310px;
+}
+
+div.informacion h2{
+    text-align: center;
+    color: white;
+}
+
+div.informacion p {
+    text-align: center;
+}
+
+div.informacion a {
+    background-color:#07dd07;
+    color: white;
+    text-decoration: none;
+    padding: 13px 2.5em;
+    width: 25%;
+    margin-left: 38%;
+    text-align: center;
+}
+
+div.pie
+{
+    background-color: #252424;
+    height: 100px;
+}
+
+div.pie ul
+{
+  float: left;
+}
+
+div.pie li{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 0 0;
+}
+
+div.pie li a{
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.733);
+    text-decoration:none;
+}
+
+div.copyright {
+    float: right;
+    margin-top: 33px;
+    color: rgba(255, 255, 255, 0.733);
+    margin-right: 10px;
+}
