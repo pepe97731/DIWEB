@@ -1,0 +1,110 @@
+.container{
+    position: relative;
+}
+.caja{
+  width: 180px;
+  height: 180px;
+  background-color: #30B037;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.caja1 {
+  background-color: rgb(223, 54, 24);
+  transition: background 1s linear;
+}
+
+.caja1:hover {
+  background-color: #30B037;
+}
+
+.caja2 {
+  background-color: rgb(223, 24, 207);
+  transition: font-size 1s ease-in;
+  
+}
+
+.caja2:hover {
+  font-size: 25px;
+}
+
+.caja3 {
+  background-color: rgb(16, 104, 187);
+  transition: color 1s linear;
+  
+}
+
+.caja3:hover {
+  color: coral;
+}
+
+.caja4 {
+  background-color: rgb(52, 139, 221);
+  transition: 1s linear;
+  
+}
+
+.caja4:hover {
+  line-height: 300px;
+}
+
+.caja5 {
+  background-color: rgb(29, 209, 125);
+  border-radius: 0;
+  transition: 1s linear;
+}
+
+.caja5:hover {
+  border-radius: 30px;
+}
+
+.caja6 {
+  background-color: yellow;
+  transition: 1s linear;
+}
+
+.caja6:hover {
+  box-shadow: 20px 20px 12px 6px black;
+}
+
+.caja7 {
+  background-color: rgb(240, 153, 23);
+  transition: 1s linear;
+}
+
+.caja7:hover {
+  opacity: 0.5;
+}
+
+.caja8 {
+  background-color: rgb(192, 192, 177);
+  transition: 1s linear;
+}
+
+.caja8:hover {
+  border-style: solid;
+  border-color: black;
+}
+
+.caja9 {
+  background-color: rgb(42, 47, 80);
+  transition: 1s linear;
+}
+
+.caja9:hover {
+  margin: 60px;
+}
+
+.caja10 {
+  background-color:black;
+  transition: 1s linear;
+}
+
+.caja10:hover {
+  padding: 40px;
+}
