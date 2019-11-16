@@ -1,0 +1,90 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+li a {
+    text-decoration: none;
+    font-family: sans;
+    float: left;
+}
+
+.menu {
+    display: block;
+    position: relative;
+    height: 76px;
+    width: 120px;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  
+.menu.servicios {
+    border-top: yellow 0.2em solid;
+}
+  
+.menu.recursos {
+    border-top: red 0.2em solid;
+}
+  
+.menu.proyectos {
+    border-top: green 0.2em solid;
+}
+  
+.menu.contacto {
+    border-top: purple 0.2em solid;
+}
+
+.menu > span {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+
+.menu:after, .menu > span > span {
+    display: block;
+    text-align: center;
+    border-radius: 0em;
+    padding: 2em 0 1.5em;
+  }
+  
+.menu:after {
+    content: attr(data-title);
+    width: 100%;
+    background: #000;
+    color: #fff; 
+}
+  
+.menu > span > span {
+    width: 120px;
+    color: #fff;
+}
+
+.menu.servicios > span > span {
+    background: yellow;
+}
+  
+.menu.proyectos > span > span {
+    background: green;
+}
+  
+.menu.recursos > span > span {
+    background: red;
+}
+  
+.menu.contacto > span > span {
+      background: purple;
+}
+
+.menu:hover > span {
+    width: 100%; 
+}
+
