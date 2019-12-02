@@ -1,0 +1,15 @@
+div.col {
+    background-color: blue;
+}
+
+#footer {
+    height: 50px;
+    margin-left: 16px;
+}
+
+#botonPag2 {
+    border-color: white;
+    background-color: blue;
+    margin-right: 10px;
+    color: white;
+}
