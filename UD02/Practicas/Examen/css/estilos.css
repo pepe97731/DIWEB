@@ -1,0 +1,83 @@
+html, body{
+    height: 100%; 
+}
+
+/*Modificación del ancho de modelo de css*/
+html{
+    box-sizing: border-box
+}
+
+/* Reseteo de márgenes y padding */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/*Anchura 90% para todas las secciones de html y márgenes superiores e inferiores*/
+div.container{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto
+}
+
+div.container {
+    flex-direction: row;
+}
+
+#cabecera {
+    height: 100px;
+}
+
+div.logo {
+    width: 15%;
+    float: left;
+}
+
+div.enlacesCabecera {
+    float: left;
+    margin-left: 200px;
+    margin-top: 14px;
+}
+
+ul.listaCabecera {
+    list-style: none;
+}
+
+ul.listaCabecera li {
+    display: inline-block;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+a:link{
+    text-decoration:none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul.listaCabecera li a:hover{
+    border: 1px solid red;
+}
+
+div.contacto {
+    width: 12%;
+    float: left;
+    margin-left: 200px;
+    margin-top: 14px;
+}
+
+div.contacto p{
+    margin-left: 6px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(192, 192, 177);
+    transition: 1s linear;
+}
+
+div.contacto p:hover {
+    border-style: solid;
+    border-color: white;
+}
