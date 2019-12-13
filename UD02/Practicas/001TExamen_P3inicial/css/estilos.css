@@ -1,0 +1,385 @@
+/* ESTILOS GENERALES */
+html,
+body {
+  height: 100%;
+}
+/* Modificar el modelo de cajas de CSS */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* Resetear márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* Centrar elementos en pantalla */
+.container {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+/* Estilos de los textos */
+h2 {
+  font-size: 1.85rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.divider {
+  border-bottom: 2px solid #ff0000;
+  width: 115px;
+  margin: 30px auto;
+}
+
+/* ESTILOS DE LOS CONTENIDOS */
+/* Barra de navegación */
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main-nav {
+  display: flex;
+  list-style: none;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+#main-nav li {
+  padding: 12px 0.85em;
+}
+#main-nav li a {
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  padding-bottom: 12px;
+}
+#main-nav li a:hover {
+  border-bottom: 2px solid #ff0000;
+}
+#main-nav + a {
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  border: 1px solid #ff0000;
+  padding: 12px 3em;
+  transition: all 0.5s;
+}
+
+#main-nav + a:hover {
+  background-color: #ff0000;
+  color: #fff;
+  transition: all 0.5s;
+}
+nav {
+  padding: 12px 0;
+  border-bottom: 1px solid #ccc;
+}
+/* Sección 1 */
+article > section:nth-child(1) {
+  background-image: linear-gradient(
+      rgba(41, 24, 21, 0.5),
+      rgba(41, 24, 21, 0.9)
+    ),
+    url(../images/buffet-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+#seccionPrimera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 600px;
+}
+
+#seccionPrimera h1 {
+  font-size: 3.85rem;
+  font-family: arial, tahoma, verdana, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffff00;
+  text-shadow: 5px 3px 0 #000;
+}
+/* Sección 2 */
+article > section:nth-child(2) {
+  margin: 60px 0;
+}
+#seccionSegunda {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 40px;
+}
+#seccionSegunda img {
+  flex-basis: 35%;
+  max-width: 35%;
+  align-self: flex-start;
+  height: 285px;
+}
+#seccionSegunda div {
+  flex-basis: 65%;
+  padding-left: 1.85em;
+}
+/* Sección 3 */
+#seccionTercera {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  height: 360px;
+  align-items: center;
+  color: #fff;
+}
+article > section:nth-child(3) {
+  background-image: linear-gradient(
+      rgba(41, 24, 21, 0.5),
+      rgba(41, 24, 21, 0.9)
+    ),
+    url(../images/food-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+/* Sección 4 */
+article > section:nth-child(4) {
+  margin: 60px 0;
+}
+#seccionCuarta {
+  display: flex;
+  margin-top: 60px;
+}
+#seccionCuarta img {
+  width: 100%;
+}
+#seccionCuarta div {
+  margin: 0 0.5em;
+  box-shadow: -2px 2px 2px #ccc, 2px 4px 1px #ccc;
+  padding-bottom: 15px;
+}
+#seccionCuarta h3 {
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 500;
+}
+/*Sección 5*/
+article > section:nth-child(5) {
+  margin: 60px 0;
+  text-align: center;
+  background-color: #fcfcfc;
+  padding: 60px 0;
+}
+#seccionQuinta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+.col{
+    width: 33%;
+    margin: 0 0.5em;
+    transition: all 0.5s;
+}
+.col:hover{
+    box-shadow: 0 -5px 15px #dad8d8, 0 8px 15px #dad8d8;
+    transition: all 0.5s;
+}
+.col ul{
+    border: 1px solid #ccc;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.col ul li{
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.package-header{
+    font-size: 1.5rem;
+}
+.price{
+    background-color: #ececec;
+    font-size: 1.30rem;
+}
+.col ul li i{
+    color: #008000;
+}
+
+#addressBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contactForm{
+  margin-top: 40px;
+  display: flex;
+  /*flex-flow: row wrap;*/
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+div.col-input {
+  flex-basis : 400px;
+}
+
+#col-text{
+  margin-top: 40px;
+}
+
+#mensaje {
+  width: 98%;
+}
+
+input[type="submit"]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+input[type="text"]{
+  width: 80%;
+  height: 40px;
+}
+
+input[type="email"]{
+  width: 80%;
+  height: 40px;
+}
+
+
+
+div.col-text label {
+  flex-basis: 100%;
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+}
+
+div.col-text textarea {
+  flex:1;
+}
+
+footer {
+  background-color: rgb(58, 58, 58);
+  height: 150px;
+  margin-top: 50px;
+}
+
+#pieDePagina {
+  display: flex;
+  justify-content: center;
+  border-bottom-width: thin;
+  border-bottom: solid;
+  border-color: white;
+}
+
+#pieDePagina i {
+  font-size: 28px;
+  margin:10px;
+  color: white;
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 30px;
+}
+
+#telefono {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  #seccionSegunda img{
+    display: none;
+  }
+
+  #seccionSegunda div{
+    flex-basis: 100%;
+  }
+
+  #seccionSexta label{
+    font-size: 0.95rem;
+  }
+
+  #seccionQuinta ul li:nth-child(3), #seccionQuinta ul li:nth-child(4), #seccionQuinta ul li:nth-child(5),
+  #seccionQuinta ul li:nth-child(6), #seccionQuinta ul li:nth-child(7), #seccionQuinta ul li:nth-child(8){
+    font-size: 0.60rem;
+  }
+
+}
+
+
+/* Large 2*/
+@media screen and (max-width: 960px) {
+  
+  #navigation ul li a {
+    font-size: 0.95rem;
+  }
+
+  #seccionSegunda img{
+    display: none;
+  }
+
+  #seccionSegunda div{
+    flex-basis: 100%;
+  }
+
+  #seccionQuinta ul li:nth-child(3), #seccionQuinta ul li:nth-child(4), #seccionQuinta ul li:nth-child(5),
+  #seccionQuinta ul li:nth-child(6),#seccionQuinta ul li:nth-child(7),#seccionQuinta ul li:nth-child(8){
+    font-size: 0.60rem;
+  }
+
+  #seccionQuinta ul li:nth-child(1), #seccionQuinta ul li:nth-child(2){
+    font-size: 1.1rem;
+  }
+
+}
+
+
+@media screen and (max-width: 1119px) {
+  body {
+    font-size: 1.04rem;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  nav.div {
+    display: none;
+  }
+
+  #telefono {
+    display: block;
+  }
+
+  #seccionPrimera h1{
+    font-size: 3.3rem;
+  }
+
+}
